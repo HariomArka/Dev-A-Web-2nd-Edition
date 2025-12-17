@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2 - Dev-A-Web 2025</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="../style.css"> -->
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="../logo.webp" alt="Dev-A-Web Logo" class="logo-img">
+                <span class="logo-text">Dev-A-Web 2025</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="../index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../Day1/index.html" class="nav-link">Day 1</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../Day2/index.html" class="nav-link">Day 2</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../Day3/index.html" class="nav-link">Day 3</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <h1>Dev-A-Web 2nd Edition</h1>
+                <div class="day-badge">Day 2</div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <section class="intro-section">
+                <h2>Study Material: React JS | Node JS</h2>
+                <p class="subtitle">Welcome to Day 2 of the workshop! Follow the steps below to get started with today's project.</p>
+            </section>
+
+            <section class="section">
+                <h3 class="section-title">
+                    <span class="icon">🔗</span>
+                    Today's Resources
+                </h3>
+                <div class="resource-cards">
+                    <div class="resource-card">
+                        <h4>GitHub Repository of Fazal</h4>
+                        <a href="https://github.com/fhayat81/dev-a-web-day-2" target="_blank" class="resource-link">
+                            github.com/fhayat81/dev-a-web-day-2
+                            <span class="arrow">→</span>
+                        </a>
+                    </div>
+                    <div class="resource-card">
+                        <h4>Live Demo of ToDo List</h4>
+                        <a href="https://task-manager-devaweb.vercel.app/" target="_blank" class="resource-link">
+                            Todo List Vercel App
+                            <span class="arrow">→</span>
+                        </a>
+                    </div>
+                    <div class="resource-card">
+                        <h4>Recording of the Session(Day 2)</h4>
+                        <a href="https://teams.microsoft.com/l/meetingrecap?driveId=b%21Zdu7bDVcMk6X6_1jMEOjot__PyIkkoJAne1MKMiyzeOeRwtH7o0EQawTFGJJvDgp&driveItemId=01GHFOZXFN6UJUCS4H4BHZLE6ISFQDSGOD&sitePath=https%3A%2F%2Fiitkgpacin-my.sharepoint.com%2F%3Av%3A%2Fg%2Fpersonal%2Fnaunidhsinghmadhok_24_kgpian_iitkgp_ac_in%2FIQCt9RNBS4fgT5WTyJFgORnDAW65u4DN3QL1nb6WLHmrues&fileUrl=https%3A%2F%2Fiitkgpacin-my.sharepoint.com%2Fpersonal%2Fnaunidhsinghmadhok_24_kgpian_iitkgp_ac_in%2FDocuments%2FRecordings%2FDev-A-Web-20251215_190748-Meeting%2520Recording.mp4%3Fweb%3D1&iCalUid=040000008200E00074C5B7101A82E00800000000E3D0A086816DDC0100000000000000001000000096EC58E2ECD9A044BBBB2FDDC56C6568&threadId=19%3Ameeting_YjIxNjg5ZGEtZmExNC00Y2VlLWJiMmItYjc0MjU3OWI3MWUw%40thread.v2&organizerId=5d49daf5-d52e-4986-9eab-0638e24af980&tenantId=71dbb522-5704-4537-9f25-6ad2dcd4278d&callId=b3d30900-f790-488d-838b-8c3a110aa0cd&threadType=Meeting&meetingType=Scheduled&subType=RecapSharingLink_RecapCore" target="_blank" class="resource-link">
+                            Day 2 recording
+                            <span class="arrow">→</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h3 class="section-title">
+                    Steps to Follow
+                </h3>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h4>Create a new folder</h4>
+                            <p>Set up a dedicated folder for this project on your computer</p>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h4>Open in VS Code</h4>
+                            <p>Launch Visual Studio Code and open your newly created folder</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h4>Clone the repository of Fazal</h4>
+                            <div class="code-block">
+                                <code>git clone https://github.com/fhayat81/dev-a-web-day-2.git</code>
+                                <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h4>Understand the code</h4>
+                            <p>Try to understand how the components are used, how the navigation is made, and the logic of adding and deleting things to do.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section red-section">
+                <h3 class="section-title">
+                    Day 2 Task
+                </h3>
+                <div class="resource-cards">
+                    <div class="resource-card">
+                        <h4>Build a website for a Restaurant </h4>
+                        <a href="https://docs.google.com/document/d/1onyA03bVgXhaxVpBRIjgf4XaiNf2qbSiSj8NMLYFdXM/edit?tab=t.0#heading=h.44yl8dk81ac4" target="_blank" class="resource-link">
+                            Google Drive Link to task PDF
+                            <span class="arrow">→</span>
+                        </a>
+                    </div>
+                    <div class="resource-card">
+                        <h4>Task Submission Link</h4>
+                        <a href="https://forms.gle/rFebUmZx9TAfKdSf9" target="_blank" class="resource-link">
+                            Submit your task
+                            <span class="arrow">→</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="section">
+                <h3 class="section-title">
+                    Video Tutorial
+                </h3>
+                <div class="video-card">
+                    <h4>Complete Web Development Guide</h4>
+                    <p>by Code With Harry ( Contains ReactJS and NodeJS )</p>
+                    <a href="https://youtube.com/playlist?list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&si=5NYC1rb37To8NKX9" target="_blank" class="resource-link">
+                        Watch Playlist
+                        <span class="arrow">→</span>
+                    </a>
+                </div>
+            </section>
+
+            <section class="section">
+                <h3 class="section-title">
+                    Documentation & Study Materials
+                </h3>
+                <div class="docs-grid">
+                    <div class="doc-category">
+                        <h4>Official Documentaion</h4>
+                        <ul class="doc-list">
+                            <li><a href="https://tailwindcss.com/docs/installation/using-vite" target="_blank">Tailwind CSS</a></li>
+
+                            <li><a href="https://react.dev/learn" target="_blank">React JS</a></li>
+
+                            <li><a href="https://www.geeksforgeeks.org/node-js/nodejs/" target="_blank">Node JS</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h3 class="section-title">
+                    Deployment Guides
+                </h3>
+                <div class="deployment-cards">
+                    <div class="deployment-card">
+                        <h4>Deploy with GitHub Pages</h4>
+                        <a href="" target="_blank" class="resource-link">
+                            You cannot Deploy React Js websites using GitHub
+                        </a>
+                    </div>
+
+                    <div class="deployment-card">
+                        <h4>Deploy with Vercel</h4>
+                        <a href="https://youtu.be/BT4WzyT2g8k?si=9J7rNKFA0liifrP2" target="_blank" class="resource-link">
+                            Watch Tutorial(Best Practice)
+                            <span class="arrow">→</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h3 class="section-title">
+                    Steps to Follow to learn React JS
+                </h3>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <p>It's really tough to understand ReactJs in one go. S0 you are not the one to feel difficulty.</p>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <p>Find a good YouTube playlist and start learning. You can follow Code With Harry playlist also.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <p>Build 2-3 websites by your own from scratch. </p>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <p>Build 2-3 websites by your own from scratch. Here are some websites, try building things like this: 
+                                <a class="links" href="https://communique.vercel.app/" target="_blank">GMUN Website</a>,
+                                 <a class="links"  href="https://encriptix.github.io/Calculator/index.html" target="_blank">A Simple Calculator</a>, 
+                                 <a  class="links" href="https://encriptix.github.io/LandingPage/index.html" target="_blank">Clone of Netflix Landing Page</a>, 
+                                 <a  class="links"  href="https://arkaghosh.vercel.app/" target="_blank">A nice Portfolio Website</a> (Click on the links to visit the websites. We have built everything from scratch)</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+
+        <footer class="footer">
+            <p>Dev-A-Web Workshop © 2025 | Gopali Youth Welfare Society</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="../script.js"></script>
+</body>
+</html>
